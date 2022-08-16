@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="MyTestNGSuite" parallel="methods" thread-count="3"><!--after codetion need a space-->
+
+    <parameter name="browser" value="chrome"></parameter>
+    <parameter name="url" value="http://automationpractice.com/index.php"></parameter>
+
+
+    <test name="GetAbsolutePath">
+
+        <classes>
+          <!--  <class name="testNGDemo.AppInitTestNG"></class>  -->
+            <!--<class name="testNGDemo.Test_TestNG"></class>  -->
+            <!--<class name="testNGDemo.ParallelExecution"></class> -->
+            <class name="testNGDemo.ExcelConnection"></class>
+
+        </classes>
+
+    </test>
+</suite>

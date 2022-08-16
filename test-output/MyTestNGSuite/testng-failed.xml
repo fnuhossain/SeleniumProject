@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="methods" name="Failed suite [MyTestNGSuite]" guice-stage="DEVELOPMENT">
+  <parameter name="browser" value="chrome"/>
+  <parameter name="url" value="http://automationpractice.com/index.php"/>
+  <test thread-count="3" parallel="methods" name="GetAbsolutePath(failed)">
+    <classes>
+      <class name="testNGDemo.ExcelConnection">
+        <methods>
+          <include name="teardown"/>
+          <include name="excelDemo"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- testNGDemo.ExcelConnection -->
+    </classes>
+  </test> <!-- GetAbsolutePath(failed) -->
+</suite> <!-- Failed suite [MyTestNGSuite] -->

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<!--comment out for xml file -->
+
+    <suite name="MyTestNGSuite">
+
+    <parameter name="browser" value="chrome"></parameter>
+    <parameter name="url" value="https://www.macys.com/"></parameter>
+
+
+
+
+    <!-- <test name="LoginFunctionality">-->
+
+<!-- <classes>-->
+<!--<class name="testNGDemo.TestClass"></class>-->
+<!--<class name="testNGDemo.TestClass_2"></class>-->
+
+
+<!--</classes>-->
+
+<!--</test>-->
+
+
+
+ <test name="GetAbsolutePath">
+<!--     <groups>-->
+<!--         <run>-->
+<!--             <include name="regration"/>-->
+<!--                <include name="sanity"/>-->
+<!--               <include name="smoketest"/>-->
+<!--              <include name="unittest"/>-->
+
+<!-- </run>-->
+<!-- </groups>-->
+
+
+
+
+<classes>
+<!--    <class name="testNGDemo.AppInitTestNG"></class>-->
+<!--    <class name="testNGDemo.Test_TestNG"></class>-->
+<!--       <class name="testNGDemo.TestClass_2"></class>-->
+    <class name="testNGDemo.ExcelConnection2"></class>
+   </classes>
+
+</test>
+
+
+</suite>
